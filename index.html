@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+
+<body>
+  <a-scene src="./empty-desert-forest-landscape-sunset-time-scene_1308-59134.avif">
+
+    <a-camera wasd-controls-enabled="false" position="0 8 20"></a-camera>
+
+    
+    <a-assets >      
+
+  <a-asset-item id="train-obj" src="./tinker.obj"> </a-asset-item>
+  <a-asset-item id="train-mtl" src="./obj.mtl"></a-asset-item>
+
+    </a-assets>
+
+<a-entity obj-model="obj:#train-obj; mtl:#train-mtl" position="10 7 1" rotation="-90 0 0 " scale="0.1 0.1 0.1">  </a-entity>
+
+
+   
+  </a-scene>
+</body>
+
+</html>
